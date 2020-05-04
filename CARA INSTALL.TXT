@@ -1,0 +1,29 @@
+******************************************
+*					 *
+*  ECK HOTEL (by : ECK Solusi)		 *
+*  Aplikasi Hotel berbasis web		 *
+*					 *
+*  Developer : Marshal Lawrence		 *
+*  Release : September 2015		 * 					 *					 *
+******************************************
+
+CARA INSTALL :
+
+Requirement
+- PHP 5.4
+- MySQL
+- Rekomended pake XAMPP terbaru
+
+Langkah instalasi :
+
+1. Copy seluruh folder "eck-hotel" pada direktory server (contoh kalau pake xampp terletak di "C:/xampp/htdocs/")
+
+2. Buat database baru pada mysql. Jika menggunakan XAMPP dapat melalui phpMyAdmin dengan cara mengkases "http://localhost/phpmyadmin". Untuk cara membuat database nya silahkan agan googling sendiri.
+
+3. Import file "database.sql" pada database yang telah dibuat
+
+4. Edit file "database.php" pada direktori "eck-hotel/config/" sesuai dengan informasi Mysql agan
+
+5. Jika sudah sukses masuk aplikasi melalui web browser dengan cara mengakses alamat "http://localhost/eck-hotel/"
+
+6. Masuk aplikasi menggunakan "username : admin / password : admin"
